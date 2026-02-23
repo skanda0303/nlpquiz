@@ -8,7 +8,7 @@
             "Previous two words",
             "Entire sentence"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
             "Remove stopwords",
             "Improve semantic understanding"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
             "Tokenization error",
             "High TF value"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
             "Better predictive performance",
             "Larger vocabulary"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
             "Words in small documents",
             "Long sentences"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
             "ELMo",
             "Trigram"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
             "High dimensional sparsity",
             "Context mixing"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
             "Remove stopwords",
             "Reduce vocabulary"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
             "GloVe",
             "ELMo"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
             "Entire sentence",
             "Masked words"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
             "Contextual",
             "Subword-based"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 12,
@@ -129,7 +129,7 @@
             "Bag of character n-grams",
             "POS sequence"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 13,
@@ -140,7 +140,7 @@
             "It uses transformers",
             "It ignores rare words"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 14,
@@ -151,7 +151,7 @@
             "Assign one vector per word",
             "Use self-attention"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 15,
@@ -162,7 +162,7 @@
             "CNN only",
             "N-grams"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 16,
@@ -173,7 +173,7 @@
             "Speeding training",
             "Reducing parameters"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 17,
@@ -184,7 +184,7 @@
             "Uses full bidirectional self-attention",
             "Uses bigrams"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 18,
@@ -195,7 +195,7 @@
             "Transformers",
             "N-grams"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 19,
@@ -206,7 +206,7 @@
             "Use both left and right context",
             "Ignore context"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 20,
@@ -217,7 +217,7 @@
             "Sequence-level classification",
             "POS tagging"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 21,
@@ -228,7 +228,7 @@
             "Represent rare words",
             "Replace stopwords"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 22,
@@ -239,7 +239,7 @@
             "Attend to all tokens simultaneously",
             "Remove ambiguity automatically"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 23,
@@ -250,7 +250,7 @@
             "CBOW",
             "Skip-gram"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 24,
@@ -261,7 +261,7 @@
             "Dense vectors",
             "Bidirectional modeling"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 25,
@@ -272,7 +272,7 @@
             "Subword modeling",
             "Mask prediction"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 26,
@@ -283,7 +283,7 @@
             "Stopword removal",
             "TF calculation"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 27,
@@ -294,7 +294,7 @@
             "Negative",
             "Undefined"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 28,
@@ -305,7 +305,7 @@
             "ELMo",
             "TF-IDF"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 29,
@@ -316,7 +316,7 @@
             "Vocabulary decreases",
             "Context shrinks"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 30,
@@ -327,7 +327,7 @@
             "Predicting neighboring words",
             "Masked prediction"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 31,
@@ -338,7 +338,7 @@
             "Uses transformers",
             "Uses LSTMs"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 32,
@@ -349,7 +349,7 @@
             "FastText",
             "Unigram"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 33,
@@ -360,7 +360,7 @@
             "Low dimensionality",
             "Dense vectors"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 34,
@@ -371,7 +371,7 @@
             "Polysemy",
             "Tokenization"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 35,
@@ -382,7 +382,7 @@
             "RNN without memory",
             "Transformers"
         ],
-        "answer": 3
+        "answer": "D"
     },
     {
         "id": 36,
@@ -393,7 +393,7 @@
             "Maximum word probability",
             "TF-IDF sum"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 37,
@@ -404,7 +404,7 @@
             "Equal always",
             "Unrelated"
         ],
-        "answer": 1
+        "answer": "B"
     },
     {
         "id": 38,
@@ -415,7 +415,7 @@
             "Adjust representation per sentence",
             "Remove stopwords"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 39,
@@ -426,7 +426,7 @@
             "Next Sentence Prediction",
             "Matrix factorization"
         ],
-        "answer": 2
+        "answer": "C"
     },
     {
         "id": 40,
@@ -437,6 +437,6 @@
             "BoW -> TF-IDF -> Word Embeddings -> Contextual Embeddings",
             "Word2Vec -> N-gram -> One-hot"
         ],
-        "answer": 2
+        "answer": "C"
     }
 ]

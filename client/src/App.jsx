@@ -104,7 +104,7 @@ const Quiz = ({ questions, currentIdx, setCurrentIdx, answers, selectOption, tab
                             onClick={() => selectOption(i)}
                         >
                             <div className="option-dot" />
-                            <span>{opt}</span>
+                            <span>{String.fromCharCode(65 + i)}) {opt}</span>
                         </div>
                     ))}
                 </div>
@@ -189,7 +189,8 @@ const Review = ({ questions, answers, onBack }) => (
                 <p style={{ fontWeight: '600', marginBottom: '1rem' }}>{idx + 1}. {q.question}</p>
                 <div style={{ fontSize: '0.9rem' }}>
                     {q.options.map((opt, i) => {
-                        const isCorrect = i === q.answer;
+                        const letter = String.fromCharCode(65 + i);
+                        const isCorrect = letter === q.answer;
                         const isSelected = answers[idx] === i;
                         return (
                             <div key={i} style={{
@@ -203,7 +204,7 @@ const Review = ({ questions, answers, onBack }) => (
                                 border: isCorrect ? '1px solid rgba(16, 185, 129, 0.3)' : isSelected ? '1px solid rgba(239, 68, 68, 0.3)' : '1px solid transparent'
                             }}>
                                 {isCorrect ? <CheckCircle2 size={16} color="var(--success)" /> : isSelected ? <XCircle size={16} color="var(--error)" /> : <div style={{ width: 16 }} />}
-                                <span style={{ color: isCorrect ? 'var(--success)' : isSelected ? 'var(--error)' : 'inherit' }}>{opt}</span>
+                                <span style={{ color: isCorrect ? 'var(--success)' : isSelected ? 'var(--error)' : 'inherit' }}>{letter}) {opt}</span>
                             </div>
                         );
                     })}
@@ -309,7 +310,8 @@ const App = () => {
     const calculateScore = () => {
         let score = 0;
         questions.forEach((q, idx) => {
-            if (answers[idx] === q.answer) score++;
+            const userLetter = String.fromCharCode(65 + answers[idx]);
+            if (userLetter === q.answer) score++;
         });
         return score;
     };
