@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+results.json
+.DS_Store
+client/node_modules
+client/dist

@@ -1,0 +1,442 @@
+[
+    {
+        "id": 1,
+        "question": "In a trigram language model, the probability of word wn depends on:",
+        "options": [
+            "All previous words",
+            "Previous one word",
+            "Previous two words",
+            "Entire sentence"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 2,
+        "question": "The Markov assumption in N-gram models primarily helps to:",
+        "options": [
+            "Reduce vocabulary size",
+            "Reduce computational complexity",
+            "Remove stopwords",
+            "Improve semantic understanding"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "question": "Which issue causes many trigram probabilities to become zero?",
+        "options": [
+            "Overfitting",
+            "Data sparsity",
+            "Tokenization error",
+            "High TF value"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 4,
+        "question": "Lower perplexity indicates:",
+        "options": [
+            "Higher uncertainty",
+            "Model confusion",
+            "Better predictive performance",
+            "Larger vocabulary"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 5,
+        "question": "In TF-IDF, IDF primarily reduces the weight of:",
+        "options": [
+            "Rare words",
+            "Frequent words across documents",
+            "Words in small documents",
+            "Long sentences"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 6,
+        "question": "Which representation ignores both context and word order?",
+        "options": [
+            "BERT",
+            "TF-IDF",
+            "ELMo",
+            "Trigram"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 7,
+        "question": "One-hot encoding suffers mainly from:",
+        "options": [
+            "Low interpretability",
+            "Dense vectors",
+            "High dimensional sparsity",
+            "Context mixing"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 8,
+        "question": "Bigram models improve over unigram models because they:",
+        "options": [
+            "Use full sentence context",
+            "Capture local word order",
+            "Remove stopwords",
+            "Reduce vocabulary"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 9,
+        "question": "Which embedding method uses global co-occurrence statistics?",
+        "options": [
+            "Word2Vec",
+            "FastText",
+            "GloVe",
+            "ELMo"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 10,
+        "question": "Skip-gram predicts:",
+        "options": [
+            "Target word from context",
+            "Context words from target word",
+            "Entire sentence",
+            "Masked words"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "question": "CBOW is generally:",
+        "options": [
+            "Slower and better for rare words",
+            "Faster but weaker for rare words",
+            "Contextual",
+            "Subword-based"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 12,
+        "question": "FastText represents a word as:",
+        "options": [
+            "Single vector",
+            "Co-occurrence row",
+            "Bag of character n-grams",
+            "POS sequence"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 13,
+        "question": "FastText handles OOV words better because:",
+        "options": [
+            "It uses attention",
+            "It uses subword information",
+            "It uses transformers",
+            "It ignores rare words"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 14,
+        "question": "Static embeddings differ from contextual embeddings because static embeddings:",
+        "options": [
+            "Change per sentence",
+            "Use transformers",
+            "Assign one vector per word",
+            "Use self-attention"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 15,
+        "question": "ELMo generates embeddings using:",
+        "options": [
+            "Transformer encoders",
+            "Bi-directional LSTMs",
+            "CNN only",
+            "N-grams"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 16,
+        "question": "In ELMo, character-level embeddings help in:",
+        "options": [
+            "Removing stopwords",
+            "Handling rare and misspelled words",
+            "Speeding training",
+            "Reducing parameters"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 17,
+        "question": "BERT differs from ELMo because BERT:",
+        "options": [
+            "Uses only forward context",
+            "Uses only backward context",
+            "Uses full bidirectional self-attention",
+            "Uses bigrams"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 18,
+        "question": "BERT is based on:",
+        "options": [
+            "LSTMs",
+            "CNNs",
+            "Transformers",
+            "N-grams"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 19,
+        "question": "Masked Language Modeling forces BERT to:",
+        "options": [
+            "Predict next sentence",
+            "Use only left context",
+            "Use both left and right context",
+            "Ignore context"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 20,
+        "question": "The [CLS] token in BERT is mainly used for:",
+        "options": [
+            "Sentence separation",
+            "Masking words",
+            "Sequence-level classification",
+            "POS tagging"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 21,
+        "question": "The [SEP] token is used to:",
+        "options": [
+            "Mark masked tokens",
+            "Separate sentences",
+            "Represent rare words",
+            "Replace stopwords"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 22,
+        "question": "Self-attention allows BERT to:",
+        "options": [
+            "Use fixed window context",
+            "Process tokens sequentially",
+            "Attend to all tokens simultaneously",
+            "Remove ambiguity automatically"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 23,
+        "question": "Which technique is best for keyword extraction?",
+        "options": [
+            "One-hot",
+            "TF-IDF",
+            "CBOW",
+            "Skip-gram"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 24,
+        "question": "Which is a limitation of N-gram models?",
+        "options": [
+            "Context awareness",
+            "Exponential parameter growth",
+            "Dense vectors",
+            "Bidirectional modeling"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 25,
+        "question": "POS tagging mainly assists:",
+        "options": [
+            "Frequency counting",
+            "Grammar and structure understanding",
+            "Subword modeling",
+            "Mask prediction"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 26,
+        "question": "NER is crucial for:",
+        "options": [
+            "Sentiment polarity scoring only",
+            "Identifying entities like person and location",
+            "Stopword removal",
+            "TF calculation"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 27,
+        "question": "In TF-IDF, if a word appears in all documents, its IDF becomes:",
+        "options": [
+            "High",
+            "Zero or near zero",
+            "Negative",
+            "Undefined"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 28,
+        "question": "Which model captures polysemy effectively?",
+        "options": [
+            "Word2Vec",
+            "GloVe",
+            "ELMo",
+            "TF-IDF"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 29,
+        "question": "Trigram models require more data because:",
+        "options": [
+            "They remove smoothing",
+            "Possible combinations increase drastically",
+            "Vocabulary decreases",
+            "Context shrinks"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 30,
+        "question": "Word2Vec primarily learns by:",
+        "options": [
+            "Counting word frequency",
+            "Matrix factorization",
+            "Predicting neighboring words",
+            "Masked prediction"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 31,
+        "question": "GloVe differs from Word2Vec because it:",
+        "options": [
+            "Uses only local context",
+            "Uses global co-occurrence statistics",
+            "Uses transformers",
+            "Uses LSTMs"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 32,
+        "question": "Which model is best suited for morphologically rich languages?",
+        "options": [
+            "TF-IDF",
+            "Word2Vec",
+            "FastText",
+            "Unigram"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 33,
+        "question": "The main weakness of BoW is:",
+        "options": [
+            "High interpretability",
+            "Context loss",
+            "Low dimensionality",
+            "Dense vectors"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 34,
+        "question": "Which challenge refers to same word having multiple meanings?",
+        "options": [
+            "Sarcasm",
+            "Long dependency",
+            "Polysemy",
+            "Tokenization"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 35,
+        "question": "Long-term dependencies are better handled by:",
+        "options": [
+            "Unigram",
+            "Bigram",
+            "RNN without memory",
+            "Transformers"
+        ],
+        "answer": 3
+    },
+    {
+        "id": 36,
+        "question": "In language modeling, probability of a sentence is computed as:",
+        "options": [
+            "Sum of word probabilities",
+            "Product of conditional probabilities",
+            "Maximum word probability",
+            "TF-IDF sum"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 37,
+        "question": "Bigram perplexity is generally:",
+        "options": [
+            "Higher than unigram",
+            "Lower than unigram",
+            "Equal always",
+            "Unrelated"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 38,
+        "question": "Contextual embeddings improve NLP tasks mainly because they:",
+        "options": [
+            "Reduce vocabulary",
+            "Use static vectors",
+            "Adjust representation per sentence",
+            "Remove stopwords"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 39,
+        "question": "Which training objective is unique to BERT (original version)?",
+        "options": [
+            "Skip-gram",
+            "CBOW",
+            "Next Sentence Prediction",
+            "Matrix factorization"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 40,
+        "question": "Evolution of text representation follows:",
+        "options": [
+            "BERT -> BoW -> TF-IDF",
+            "TF-IDF -> BoW -> Word2Vec",
+            "BoW -> TF-IDF -> Word Embeddings -> Contextual Embeddings",
+            "Word2Vec -> N-gram -> One-hot"
+        ],
+        "answer": 2
+    }
+]
